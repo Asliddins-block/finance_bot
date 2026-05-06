@@ -80,9 +80,9 @@ async def back_debt(call: CallbackQuery, state: FSMContext):
 # ═══════════════════════════════════════════════
 
 INCOME_LABELS = {
-    "salary":  "💼 Зарплата",
-    "bonus":   "🎁 Премия",
-    "advance": "💳 Аванс",
+    "Зарплата":  "💼 Зарплата",
+    "Премия":   "🎁 Премия",
+    "Аванс": "💳 Аванс",
 }
 
 @router.callback_query(F.data.startswith("income:"))
